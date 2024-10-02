@@ -1,0 +1,96 @@
+<!DOCTYPE html> <!-- Indica que es un documento HTML, de lo contrario si no lo ponemos, lo interpretaria como codigo antiguo antes de los 90's Quirks mode, aparecerian codigos antiguos -->
+<html lang="es">
+
+<!--invoca al archivo style.css que contiene todas las configuraciones de estilos de la página-->
+<link rel="stylesheet" href="styles.css">
+
+<!--Encabezado, el valor atributo id invoca a una funcion del archivo style.css para dar el formato del menu-->
+<header id="mi-encabezado">
+   
+        
+    <title>COMO SUBIR UNA PAGINA WEB EN GITHUD(FRANCISCO SEGOVIA)</title>
+    <!--Creacion del menú utilizando Nav-->
+    <nav>    
+        <ul>
+            <li><a href="index.html">tutorial</a></li>
+            <li><a href="about.html">Acerca dd la aplicación </a></li>
+            <li><a href="contact.html">Creditos</a></li>
+        </ul>
+    </nav>
+
+    <!--Texto del encabezado-->
+    <h1>COMO SUBIR UNA PAGINA WED EN GITHUB</h1>
+    <p>BIENVENIDOS/AS</p>
+
+</header>
+
+<!--Cuerpo del HTML. Las configuraciones de estilos se encuentran en el archivo style.css-->
+<body>
+
+    <main>
+        <!--*CONFIGURACION DEL TEXTO EN EL CUERPO. El tamño y tipo de letra estan especificados en el archivo style.css*-->
+        <section class="contenido">
+            <h1> BIENVENIDOS A LOS PASOS DE COMO SUBIR TU PAGINA WED DE GITHUD
+            <tr><td> <hr>
+                </hr></h1>
+
+                <p>
+                GitHub es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git.<P>
+
+                
+                El código se almacena de forma pública, aunque también se   puede hacer de forma privada,<P>
+                creando una cuenta de pago. GitHub aloja tu repositorio de código y te brinda herramientas muy útiles para el trabajo en equipo.<P>
+                Una de esas herramientas es Github Pages, la cual permite alojar sitios web estáticos sin necesidad de tener conocimientos en servidores.<P>
+                GitHub pages permite dos modalidades de publicación:<Br>
+
+                La primera es “User site” (solo se podrá tener un sitio de este tipo por cuenta); en este caso el sitio web será publicado en username.github.io<p>
+                (siendo username el nombre de usuario de la cuenta).<p>
+                La segunda opción es “Project site” (proyectos ilimitados) el cual será publicado en (<username class="github io">) <Br>
+                
+                En esta ocasión se utilizará la primera opción “User site”, antes de comenzar debes de tomar en consideración lo siguienteTener una cuenta de GitHub creada.<p>
+                En caso de no tenerla la pueden crear aquí: https://github.com/join<p>
+                Debes tener instalado git en tu equipo.<p>
+                Tu proyecto debe contar con un archivo index.html<p>
+                
+                Lo siguiente será crear un nuevo repositorio, para ello daremos click sobre el ícono de +   que se encuentra en la esquina superior derecha, <P>
+                se mostrará un menú con diversas opciones, se seleccionará New repository. A continuación se mostrará la página para crear un nuevo repositorio en la cual<P>
+                se ingresará el nombre del repositorio y opcionalmente una descripción del proyecto. Es importante mencionar que el nombre de este repositorio<P>
+                debe ser de la siguiente manera: username.github.io; donde username es el nombre de usuario de la cuenta.<p>
+                En este ejemplo el nombre de usuario es demoTaller, por lo tanto ingresaré como nombre de repositorio demotaller.github.io<P>
+
+
+                Una vez creado el repositorio se debe copiar la url que GitHub proporciona, ahí se subirán los archivos del sitio web al repositorio.<P>
+                El siguiente pasó será subir los archivos del sitio web al repositorio en GitHub. Para efecto de este ejemplo, cree una carpeta llamada demoGithubPages<P>
+                que se encuentra en la siguiente ubicación: Documentos/talleres/demoGithubPages. Terminado el paso anterior se puede observar en la página del repositorio los archivos que subimos<P>
+                desde el directorio local.El último paso es configurar el repositorio para ser publicado desde la url username..github.io, para ello se seleccionará<P>
+                para ello se seleccionará la opción Settings que se encuentra en el menú del repositorio.<P>
+
+                Esta opción mostrará la página de configuración (settings) del repositorio en la cual se buscará la opción GitHub Pages, que se encuentra ubicada al final de la página,<P>
+                en ese apartado se podrá observar diversas configuraciones que se pueden aplicar en la publicación, las cuales son las siguientes:<P>
+
+                Surge: Esta opción es para elegir de cual branch se tomarán los archivos para publicarse. Los “User site” deben por requerimiento usar el branch master.<P>
+                
+                Theme Chooser: Permite seleccionar un tema para publicar utilizando la herramienta Jekyll.<P>
+                
+                Custom domain: Si se contara con un nombre de dominio personalizado, GiHub permite agregarlo de manera fácil, solo con seguir unos cuantos pasos (en el siguiente tutorial les mostraré como agregar uno).<P>
+                
+                Enforce HTTPS: Permite el uso de HTTPS en nuestro sitio.<P>
+
+                Solo debemos de seleccionar el branch master en la opción source, esperaremos unos minutos en lo que GitHub publica nuestro sitio y listo tendremos un sitio web publicado gratis.<P>
+                Como se ha podido observar publicar un sitio web utilizando GiHub Pages es muy sencillo. Podremos tener de manera fácil un sitio web para mejorar nuestra marca personal.<P>
+                </P>
+                
+                
+                </td></tr>
+            
+        </section>
+    </main>
+
+    <!--Pie de pagina-->
+    <!--el atributo Class="footer" invoca a una funcion del archivo style.css para dar el formato del pie de pagina-->
+    <div class="footer">Derechos reservados © 2023 Raquel Medrano</div>
+    
+    <!--Invoca al archivo script.js que contiene la funcion que controla el comportamiento del menu-->
+    <script src="script.js"></script>   
+</body>
+</html>
