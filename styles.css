@@ -7,7 +7,7 @@
     background-position: center; /* Centra la imagen en el encabezado */
     height: 35rem; /* Altura del encabezado (ajusta según tus necesidades) */
     
-    color: rgb(55, 235, 0); /* Color del texto en el encabezado para asegurar la legibilidad */
+    color: rgb(38, 155, 2); /* Color del texto en el encabezado para asegurar la legibilidad */
     text-orientation: upright;
     text-align: center; /* Alinea el contenido al centro del encabezado */
     padding: 20px; /* Espacio de relleno interno para el contenido */
@@ -89,10 +89,10 @@ body {
 
 .footer {
     background-color: "rgb"(103,445,34)" /* Cambia el color de fondo a azul */
-    padding: 10rem;
-    color: #fffdfd;
-    color: #ffffff; /* Color del texto en el encabezado para asegurar la legibilidad */
-    text-align: center; /* Alinea el contenido al centro del encabezado */
+    padding 10rem;
+    color:#fffdfd;
+    color:#ffffff; /* Color del texto en el encabezado para asegurar la legibilidad */
+    text-align:center ; /* Alinea el contenido al centro del encabezado */
    /* Espacio de relleno interno para el contenido */
 
 }
